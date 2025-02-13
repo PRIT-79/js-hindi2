@@ -45,3 +45,30 @@ object=>object
 function=>function
 
 */ 
+
+
+// ************************************ Memory in javascript *********************************************
+
+// stack (primitive),Heap (Non-primitive)
+
+let myYoutubename = "pritichavan.com"
+let anothername = myYoutubename
+anothername="chaiaurreact"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email:"user@gmail.com",
+    upi:"user@upi"
+}
+
+let userTwo = userOne
+
+userTwo.email = "prit@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
