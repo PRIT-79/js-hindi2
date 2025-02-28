@@ -1,3 +1,6 @@
+// for in
+
+
 // const myObject = {
 //     js :'javascript',
 //     cpp : 'c++',
@@ -10,10 +13,13 @@
     
 // }
 
-const programming = ["js","rb","py","php","java"]
+// const prog = ["js","rb","py","php","java"]
 
-for (const key in programming) {
+// for (const key in prog) {
     
-    console.log(key);
+//     console.log(prog[key]);
     
-}
+// }
+
+
+
