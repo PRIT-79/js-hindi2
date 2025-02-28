@@ -22,4 +22,8 @@
 // }
 
 
-
+const prog = ["js","rb","py","php","java"]
+prog.forEach(element => {
+    console.log(element);
+    
+});
